@@ -1,0 +1,58 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.createproject {
+  width: 100%;
+
+  input,
+  select,
+  textarea {
+    tab-size: 4;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border: 0 solid;
+    font-family: inherit;
+    margin-bottom: 10px;
+    color: inherit;
+    appearance: none;
+    background-color: #fff;
+    border-width: 1px;
+    padding: 0.5rem 0.75rem;
+    display: block;
+    width: 100%;
+    border-radius: 0.125rem;
+    border-color: rgba(209, 213, 219, 1);
+    transition-property: background-color, border-color, color, fill, stroke,
+      opacity, box-shadow, transform, filter, backdrop-filter,
+      -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.15s;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  button {
+    tab-size: 4;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    border: 0 solid;
+    border-color: rgba(229, 231, 235, 1);
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    text-transform: none;
+    background-image: none;
+    cursor: pointer;
+    padding: 0;
+    line-height: inherit;
+    -webkit-appearance: button;
+    margin-top: 1.25rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+  }
+}
